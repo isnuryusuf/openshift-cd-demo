@@ -44,6 +44,7 @@ Jenkins needs to access OpenShift API to discover slave images as well accessing
 Create the CI/CD components based on the provided template
 
   ```
+  git clone https://github.com/isnuryusuf/openshift-cd-demo/
   oc process -f cicd-template.yaml | oc create -f -
   ```
 
